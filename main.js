@@ -22,12 +22,13 @@ var config = require('./conf/config');
 var routes = require('./routes');
 var gmfw = require('./common/gmframework');
 var i18n = require('./i18n/i18n');
+var packageInfo = require('./package.json');
 
 function startServer() {
 
   // create Logger
   var log = new Logger({
-    name       : 'bvo',
+    name       : packageInfo.name,
     streams    : [
       {
         level : 'info',
@@ -49,7 +50,7 @@ function startServer() {
 
   // create openapi server
   var server = restify.createServer({
-    name: 'gm node open api',
+    name: packageInfo.name,
     log : log
   });
 

@@ -1,0 +1,1 @@
+var TEST_DATA = {"detail":{"unittest.js":{"detail":{"openapi_unittest":{"1.0.0":{"Channel":{"channel/getLandingPageData":{"test1":{"pass":true}}},"Keyword":{"keyword/getLandingPageData":{"test1":{"pass":true}}}}}},"summary":{"ok":true,"total":0,"duration":145}}},"summary":{"ok":true,"total":0,"duration":146}}

@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+!logs/
+logs/*
+!logs/README.md
+test.js
+ez.log

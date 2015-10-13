@@ -1,0 +1,31 @@
+{
+  "name": "bvo",
+  "version": "0.0.1",
+  "description": "buyer virtual office",
+  "main": "main.js",
+  "scripts": {
+    "pre-dev": "cd public && npm install && bower install && gulp pre-dev",
+    "deploy": "git pull && npm install && npm update && cd public && npm install && npm update && bower install && bower update && gulp deploy"
+  },
+  "dependencies": {
+    "restify": "^2.8.5",
+    "restify-cookies": "^0.1.1",
+    "underscore": "^1.7.0",
+    "bluebird": "^2.9.8",
+    "bunyan": "^1.3.3",
+    "cookie": "^0.1.2",
+    "request": "^2.53.0",
+    "nconf": "^0.7.1",
+    "MD5": "^1.2.1",
+    "uuid": "^2.0.1",
+    "gm-open-api": "^2.1.9"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "grunt": "*",
+    "grunt-shell": "*",
+    "dox": "*"
+  },
+  "author": "Daniel Xiao",
+  "license": "MIT"
+}

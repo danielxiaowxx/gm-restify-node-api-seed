@@ -1,10 +1,5 @@
-/**
- * Author: Daniel
- */
 
-'use strict';
-
-var demo = require('./demo');
+var demo = require('../api/demo');
 
 exports.Routes = {
     '1.0.0': {

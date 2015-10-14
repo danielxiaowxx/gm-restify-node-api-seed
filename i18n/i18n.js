@@ -1,6 +1,3 @@
-/**
- * Created by danielxiao on 15/4/10.
- */
 
 var en = require('./en');
 var zh_CN = require('./zh_CN');

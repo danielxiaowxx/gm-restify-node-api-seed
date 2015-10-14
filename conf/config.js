@@ -1,8 +1,3 @@
-/**
- * Author: Daniel
- */
-
-'use strict';
 
 var config;
 var nconf = require('nconf').argv().env();

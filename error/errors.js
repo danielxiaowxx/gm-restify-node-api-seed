@@ -1,8 +1,3 @@
-/**
- * Author: Daniel
- */
-
-'use strict';
 
 var gmfw = require('../common/gmframework').fw;
 

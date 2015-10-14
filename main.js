@@ -1,8 +1,3 @@
-/**
- * Author: Daniel
- */
-
-'use strict';
 
 /* import */
 var restify = require('restify');
@@ -120,7 +115,7 @@ function startServer() {
 
   server.get('user/i18n.gm', function(req, res, next) {
     var cookies = cookie.parse(req.headers.cookie || '');
-    var language = cookies ? cookies['bvo_language'] : 'en';
+    var language = cookies ? cookies['language'] : 'en';
     res.header('content-type', 'application/javascript');
     res.write('window.i18n = ' + JSON.stringify(i18n.getI18NContent(language)));
     res.end();
